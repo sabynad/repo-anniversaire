@@ -1,0 +1,33 @@
+* {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+ .conteneur{
+    border: 1px solid black;
+    background-color: antiquewhite;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+ }
+
+h1{
+    width: 20%;
+    border-width: 1px ;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+  main{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+  }
+
+  
