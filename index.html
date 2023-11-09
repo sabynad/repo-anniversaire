@@ -18,16 +18,17 @@
             <main>
                 <div class="jour">
                     <p>Saisissez votre jour de naissance (en chiffres)</p>
-                    <input type="text" name="" id="jour">
+                    <input type="text" name="" id="jour" minlength="0" maxlength="2">
                 </div>
                 <div class="mois">
                     <p>Saisissez votre mois de naissance (en chiffres)</p>
-                    <input type="text" name="" id="mois">  
+                    <input type="text" name="" id="mois" minlength="0" maxlength="2">  
                 </div>
                 <button class="btn-reset" type="button"> reset </button>
                 <aside>
                     <button class="btn-envoyer" type="button"> ENVOYER </button>
                 </aside>
+                <div id="resultat"></div>
             </main>
         </div>
     </body>
