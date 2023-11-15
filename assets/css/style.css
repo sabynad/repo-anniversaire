@@ -10,8 +10,11 @@
     border-radius: 0.5rem;
     background-color: antiquewhite;
     width: 20%;
+    height: 30rem;
     margin: auto;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
  }
 
 h1{
@@ -24,11 +27,39 @@ h1{
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
+
+#jour{
+  width: 80%;
+}
+#mois{
+  width: 80%;
+}
+
   main{
     width: 100%;
     margin: auto;
     text-align: center;
-    
   }
 
-  
+  .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;    
+  }
+
+.btn-reset{
+  width: 50%;
+  background-color: beige;
+}
+
+.btn-envoyer{
+  width: 80%;
+  background-color: bisque;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+#resultat{
+   margin-top: 3rem;
+}
